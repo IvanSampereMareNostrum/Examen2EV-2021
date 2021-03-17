@@ -55,7 +55,7 @@ namespace Ejercicio10
         {
             double euros, libras;
 
-            euros = double.Parse(tImporte.Text);
+            euros = double.Parse(tImporte.Text); 
             libras = euros / CONV2ISQ2021;
 
             tResultado.Text = libras.ToString();
